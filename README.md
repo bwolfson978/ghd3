@@ -59,6 +59,9 @@ Grades are on a 120 point scale.
 We will use Google Chrome to view submissions. 
 Be sure to test your code there.
 
+
+Below are some, but not necessarily all, of the key points we will consider during grading:
+
 - Circles and Rectangles  
 - Lines  
 - Polygons  
