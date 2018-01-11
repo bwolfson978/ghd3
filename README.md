@@ -59,14 +59,14 @@ Grades are on a 120 point scale.
 We will use Google Chrome to view submissions. 
 Be sure to test your code there.
 
--- Circles and Rectangles  
--- Lines  
--- Polygons  
--- Different colors  
--- README Quality
-    -- A description of what you have created. Screenshots are helpful.  
-    -- A working link to hosted files  
-    -- Section for Technical and Design Achievements
+- Circles and Rectangles  
+- Lines  
+- Polygons  
+- Different colors  
+- README Quality
+    - A description of what you have created. Screenshots are helpful.  
+    - A working link to hosted files  
+    - Section for Technical and Design Achievements
 
 Technical Achievement Desription -- 12  
 Design Achievement Description -- 12
