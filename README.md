@@ -54,30 +54,22 @@ Grading
 ---
 
 Grades are on a 120 point scale. 
-100 points will be graded for functionality: the program does what the assignment requests with an informative README. 
+96 points will be graded for functionality: the program does what the assignment requests with an informative README. 
 
-I will use Google Chrome to view submissions. 
+We will use Google Chrome to view submissions. 
 Be sure to test your code there.
 
-Total -- 120
+-- Circles and Rectangles  
+-- Lines  
+-- Polygons  
+-- Different colors  
+-- README Quality
+    -- A description of what you have created. Screenshots are helpful.  
+    -- A working link to hosted files  
+    -- Section for Technical and Design Achievements
 
-(0 will be assigned if the code won't run.)
-
-Functionality -- 80
-
-20 -- Circles and Rectangles  
-20 -- Lines  
-20 -- Polygons  
-20 -- Different colors  
-
-README Quality -- 20
-
-5 -- A description of what you have created. Screenshots are helpful.  
-10 -- A working link to hosted files  
-5 -- Section for Technical and Design Achievements
-
-Technical Achievement -- 10  
-Design Achievement -- 10
+Technical Achievement Desription -- 12  
+Design Achievement Description -- 12
 
 Remember, it is up to *you* to define what constitutes a technical and design achievements.
 Be ambitious as these are designed to allow you to shape your learning.
