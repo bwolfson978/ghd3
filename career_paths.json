@@ -1,0 +1,48 @@
+{
+  "milestone": "WPI Data Vis",
+  "people": ["Joe", "Alice", "Bob", "Kate", "Ted"],
+  "color": "thistle",
+  "children": [
+    {
+      "milestone": "Google Software Engineer",
+      "people": ["Joe", "Alice"],
+      "color": "cornflowerblue",
+      "children": [
+        {
+          "milestone": "MBA",
+          "people": ["Joe", "Alice"],
+          "color": "lawngreen",
+          "children": [
+            {
+              "milestone": "Entrepreneur",
+              "people": ["Joe"],
+              "color": "lightgrey"
+            },
+            {
+              "milestone": "Startup Employee",
+              "people": ["Alice"],
+              "color": "lightgreen"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "milestone": "Graduate School",
+      "people": ["Bob", "Kate", "Ted"],
+      "color": "peachpuff",
+      "children": [
+        {
+          "milestone": "Apple Product Manager",
+          "people": ["Bob", "Kate"],
+          "color": "powderblue"
+        },
+        {
+          "milestone": "Uber UX Design",
+          "people": ["Ted"],
+          "color": "turquoise"
+        }
+      ]
+    }
+  ]
+}

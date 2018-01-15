@@ -78,3 +78,12 @@ Remember, it is up to *you* to define what constitutes a technical and design ac
 Be ambitious as these are designed to allow you to shape your learning.
 These are the only way to move from B to A territory.
 
+Sources
+https://bl.ocks.org/mbostock/4339083
+https://gist.github.com/davo/4186300
+https://www.dashingd3js.com/svg-basic-shapes-and-d3js
+http://www.december.com/html/spec/colorsvg.html
+https://groups.google.com/forum/#!topic/d3-js/Jx1hG5v9ivI
+https://github.com/d3/d3
+https://bl.ocks.org/d3noob/43a860bc0024792f8803bba8ca0d5ecd
+https://www.thinkful.com/learn/a-guide-to-using-github-pages/start/existing-project/project-page/existing-repo/
