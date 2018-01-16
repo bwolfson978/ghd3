@@ -17,7 +17,9 @@ nested hierarchical data.
 
 While I did start with an example from the d3 docs, working with hierarchical data still proved challenging
 because I had to fit the code to my data. Understanding the way d3.hierarchy() function works in terms of generating 
-children was valuable to learn. Something that looks relatively simple but was actually quite difficult was placing text inside the 
+children was valuable to learn. The collapsible tree diagram includes circles, rectangles, and chords which were some of the required 
+graphics primitives; but in order to make sure I used lines and polygons as well I included the triangle with a line next to it
+at the bottom of the page. Something that looks relatively simple but was actually quite difficult was placing text inside the 
 rectangle elements. It's actually not possible to append a text element to a rectangle in svg so I had to first place the rectangle
 then place the text on top. With more time I would probably try to convert the rectangles with labels to a dropdown menu or some sort of 
 collapsible structure bound to the array of students.
