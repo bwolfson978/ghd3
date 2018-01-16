@@ -1,84 +1,46 @@
 Assignment 1 - Hello World: GitHub and d3  
 ===
+I started this assignment by trying to think about something
+I would like to see visualized that would incorporate many of the 
+graphics primitives the assignment is designed to get students comfortable with.
+I settled on the career paths of students in the CS industry. I figured this would
+be interesting to many others in the class as well. To simplify, I essentially just 
+made up a few different career trajectories as an example. Another interesting aspect
+I would incorporate with more time would be a dropdown or search for a specific student
+and a resulting linear path (a way to isolate a student from the group).
 
-This is a starting project to make sure you can write and host a webpage that generates graphics using d3. 
-
-The primary goal is to be able to generate graphics primitives (circles, rectangles, lines, polygons) at different locations on the screen with different colors. 
-
-The secondary goal is to introduce you to coding on GitHub, including creating a gh-pages branch to host your visualizations.
-
-You may write everything from scratch, or start with demo programs from books or the web. 
-If you do start with code that you found, you **must identify** the source of the code in your README and, most importantly, make non-trivial changes to the code to make it your own so you really learn what you're doing. 
-
-For example, you could download one of the d3.js examples, read it through so you understand what it's doing, and then change the appearance of the graphical output to use different color schemes, different primitive shapes, different layouts of the primitives, and so on.
-
-Resources
+Technical Achievement
 ---
+My technical achievement in this assignment is primarily going past just displaying graphics primitives, to using
+graphics primitives in a more complex visualization. Additionally, I practiced reading in data from a json file, and working with
+nested hierarchical data.
 
-If you need a JavaScript/HTML/CSS refresher, see [Technology Fundamentals by Scott Murray](http://chimera.labs.oreilly.com/books/1230000000345/ch03.html#_html) and/or [JavaScript Codeacademy](https://www.codecademy.com/en/tracks/javascript).
+While I did start with an example from the d3 docs, working with hierarchical data still proved challenging
+because I had to fit the code to my data. Understanding the way d3.hierarchy() function works in terms of generating 
+children was valuable to learn. Something that looks relatively simple but was actually quite difficult was placing text inside the 
+rectangle elements. It's actually not possible to append a text element to a rectangle in svg so I had to first place the rectangle
+then place the text on top. With more time I would probably try to convert the rectangles with labels to a dropdown menu or some sort of 
+collapsible structure bound to the array of students.
 
-If you need a Git/GitHub refreseher, see [GitHub Bootcamp](https://help.github.com/categories/bootcamp/), the [GitHub Guides](https://guides.github.com/) (especially the ones on Hello World, and Understanding the GitHub Flow, and Forking Projects), and [CodeSchool's Try Git Course](https://www.codeschool.com/courses/try-git).
-
-Requirements
+Design Achievement
 ---
+My design achievement in this assignment consists of a structured approach to choosing
+a visualization, reading in colors from a json file, as well as incorporating interactivity and animation.
 
-1. Your project should contain at least four kinds of graphics primitives (circles, rectangles, lines, polygons) in different colors. 
-2. Your document should identify the source of the code if you start with code that you found. 
-3. Your code should be forked from the GitHub repo and linked using GitHub pages. See the "GitHub Details" section below for detailed instructions on how to do this.
-
-GitHub Details
----
-
-- Make sure I have your GitHub Username (collected through the course survey) and have added you to the "Class" team. You'll get an email from GitHub when this is done and you will be able to access the assignment repository.
-- Fork the GitHub Repository for Assignment 1. You now have a copy associated with your username.
-- Make changes to index.html to fulfill the project requirements. 
-- Make sure your "master" branch matches your "gh-pages" branch. See the GitHub Guides referenced above if you need help.
-- Edit the README.md with a link to your gh-pages site "http://YourUsernameGoesHere.github.io/01-ghd3/index.html".
-- To submit, make a [Pull Request](https://help.github.com/articles/using-pull-requests/) on the original repository.
-
-Vis Details
----
-
-For this project you should use d3.js. 
-You can download examples from [d3.js](http://d3js.org) or start from scratch.
-
-See the [Using d3js](https://github.com/mbostock/d3/wiki#using) documentation for how to run your own local server.
-
-Creative solutions are welcome! In the past I've seen smiling lollipops, portraits, and more.
-
-Go beyond the minimum requirements of this project.
-Experiment with other aspects of the [d3 API](https://github.com/mbostock/d3/wiki/API-Reference) and [d3 Tutorials](https://github.com/mbostock/d3/wiki/Tutorials). 
-Try making the elements interactive, for example, or animate them.
-
-Grading
----
-
-Grades are on a 120 point scale. 
-96 points will be graded for functionality: the program does what the assignment requests with an informative README. 
-
-We will use Google Chrome to view submissions. 
-Be sure to test your code there.
-
-
-Below are some, but not necessarily all, of the key points we will consider during grading:
-
-- Circles and Rectangles  
-- Lines  
-- Polygons  
-- Different colors  
-- README Quality
-    - A description of what you have created. Screenshots are helpful.  
-    - A working link to hosted files  
-    - Section for Technical and Design Achievements
-
-Technical Achievement Desription -- 12  
-Design Achievement Description -- 12
-
-Remember, it is up to *you* to define what constitutes a technical and design achievements.
-Be ambitious as these are designed to allow you to shape your learning.
-These are the only way to move from B to A territory.
+I started this assignment by just thinking about how I would visualize
+this phenomenon in my head. What resulted was a trie-type structure with heatmap
+properties as well displaying commonly taken paths. I then turned to the D3 docs to evaluate 
+what types of pre-existing visualizations might fit well. The initial options
+I considered included: sunburst diagram, node-link tree, collapsible force layout, and collapsible
+tree layout. I ended up choosing the collapsible tree layout because it matched most closely to what
+I had initially visualized in my head and the other visualizations seemed to have extraneous features
+I wouldn't be able to fully take advantage of in this assignment. Secondly, each rectangle in the collapsible tree diagram reads
+its color from the json file that is initially read in to generate the structure. The colors are svg standard color strings. Lastly, the visualization
+is interactive and animated. It's possible for the user to click on nodes and expand children, then close them back again. Transitions are visible as nodes expand
+which increases the aesthetic appeal of the design, acting in a way that feels natural to users.
 
 Sources
+---
 https://bl.ocks.org/mbostock/4339083
 https://gist.github.com/davo/4186300
 https://www.dashingd3js.com/svg-basic-shapes-and-d3js

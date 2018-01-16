@@ -55,6 +55,15 @@
       duration = 750,
       root;
 
+  //title
+  svg.append("text")
+      .attr("x", (width / 2))
+      .attr("y", 0)
+      .attr("text-anchor", "middle")
+      .style("font-size", "16px")
+      .style("text-decoration", "underline")
+      .text("Where will Data Vis Take Us?");
+
   // red triangle
   svg.append('path')
       .attr("d", "M 600 400 L 500 400 L 500 450 z")
@@ -154,9 +163,14 @@
           .attr("text-anchor", "middle")
           .text(function(d){
               var names = "";
+              var i = 0;
+              var size = d.data.people.length;
               d.data.people.forEach(function(elt){
                   names += elt;
-                  names += ', ';
+                  if(i != size - 1){
+                      names += ', ';
+                  }
+                  i++;
               });
               console.log(names);
               return names;
