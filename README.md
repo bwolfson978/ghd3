@@ -9,6 +9,8 @@ made up a few different career trajectories as an example. Another interesting a
 I would incorporate with more time would be a dropdown or search for a specific student
 and a resulting linear path (a way to isolate a student from the group).
 
+Link: https://bwolfson978.github.io/01-ghd3/index.html
+
 Technical Achievement
 ---
 My technical achievement in this assignment is primarily going past just displaying graphics primitives, to using
